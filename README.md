@@ -10,7 +10,7 @@ What I had done:
 1. In the .github/workflows/ADOtoGitHubSync.yml I change the parameter `runs-on` from `windows-2019` to `windows-latest`.
 2. In the same file I had change the parameter `uses` from `actions/cehckout@v2` to `actions/cehckout@v4`. If you do not change it, you will get warning when trying to running at the Actions. 
 3. Change the value in ADORepoList.json according to my ADO and GitHub branch name and URL.
-4. Creat my GitHub PAT and ADO PAT.
+4. Create my GitHub PAT and ADO PAT.
 5. Refer to this [video](https://www.youtube.com/watch?v=G1nKqb8be-A&t=1434s) to understand and learn more about the tool.
 6. Is a manual update but it was good enough for me.
 
